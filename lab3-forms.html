@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Order Form</title>
+    <style>
+        body { text-align: center; }
+    </style>
+</head>
+<body>
+<h1>Coffee Order Form</h1>
+<form action="https://www.w3schools.com/action_page.php" method="get">
+    <p>Please enter your information and how you would like your coffee prepared!</p>
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name"/>
+    </p>
+    <p>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+    </p>
+    <p>
+        <label for="coffeeType">Coffee Type:</label>
+        <select name="coffeeType" id="coffeeType">
+            <option value="Latte">Latte</option>
+            <option value="Cappuccino">Cappuccino</option>
+            <option value="Americano">Americano</option>
+            <option value="Espresso">Espresso</option>
+        </select>
+    </p>
+    <p>
+        <input type="radio" id="small" name="size" value="small"/>
+        <label for="small">Small</label>
+        <input type="radio" id="medium" name="size" value="medium"/>
+        <label for="medium">Medium</label>
+        <input type="radio" id="large" name="size" value="large"/>
+        <label for="large">Large</label>
+    </p>
+    <p>
+        Select Any Special Options: <br>
+        <input type="checkbox" id="extras1" name="extras1" value="whippedCream">
+        <label for="extras1">Whipped Cream</label>
+        <input type="checkbox" id="extras2" name="extras2" value="extraShot">
+        <label for="extras2">Extra Shot</label>
+        <input type="checkbox" id="extras3" name="extras3" value="almondMilk">
+        <label for="extras3">Almond Milk</label>
+    </p>
+    <p>
+        <label for="additions">More Instructions:<br></label>
+        <textarea id="additions" name="additions" rows="5" cols="33"></textarea>
+    </p>
+    <p class="button">
+        <button type="submit">Submit</button>
+    </p>
+</form>
+</body>
+</html>
