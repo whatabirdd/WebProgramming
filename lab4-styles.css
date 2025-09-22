@@ -1,0 +1,30 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+p {
+  color: purple;
+  padding: 10px;
+}
+ul {
+  color: red;
+}
+li::marker {
+  color: green;
+}
+a {
+  color: blue;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+.styled-box {
+  border: 5px solid yellow;
+  background-color: lightgray;
+  padding: 15px;
+  text-align: center;
+}
